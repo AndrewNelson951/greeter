@@ -14,6 +14,5 @@ contract Greeter is Ownable {
     function setGreeting(string calldata greeting) external onlyOwner {
         _greeting = greeting;
     }
-
 }
 
